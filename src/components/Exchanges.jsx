@@ -24,6 +24,9 @@ const Exchanges = () => {
         <Col span={6}>Change</Col>
       </Row>
       <Row>
+        <Col span={24}><h1>NOT AVAILABLE WITH FREE ACCOUNT</h1></Col>
+      </Row>
+      <Row>
         {/* {exchangesList.map((exchange) => (
           <Col span={24}>
             <Collapse>

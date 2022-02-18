@@ -37,8 +37,8 @@ To run the application you need to have your own account and use your credential
    ```
    Copy the following snippet into `tsconfig.json`.
    ```json
-{
-  "compilerOptions": {
+   {
+    "compilerOptions": {
     "target": "es5",
     "jsx": "react-jsx",
     "module": "esnext",
@@ -59,12 +59,13 @@ To run the application you need to have your own account and use your credential
     "isolatedModules": true,
     "noEmit": true,
     "noFallthroughCasesInSwitch": true
-  },
-  "include": [
-    "src"
-  ]
-}
+   },
+   "include": [
+     "src"
+   ]
+   }
 
    ```
+
 2. Step Rename files
    `*.jsx` -> `*.tsx` and `*.js`-> `*.ts`
